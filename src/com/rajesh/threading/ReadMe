@@ -1,0 +1,33 @@
+MultiThreading Concepts
+
+Thread: 
+flow of control
+is nothing but independent path of execution within a same program
+
+creation of thread: 3 ways of creating thread
+A) By extending thread class
+B) By implementing runnable
+C) By implementing callable
+
+Q) why i should override run
+Answer:-
+Normal java execution tarts from main
+thread flow starts from run method.
+
+eg.line 8 if we call start method on t1 it will throw illegalthreadstatus exception. 
+so disadvantages of using thread is not possible uisng extending thread and calling t1.start() again or twice.
+As thread is dead we can't execute again.
+in order to reuxe thread threadpool concepts. 
+there are 4 thread pool
+1) fixed
+2) cached
+3)  scheduled thread 
+4) single
+
+Thread pool concepts:
+
+Thread pool internally uses queue concepts.
+Say i have 3 threads t1, t2 and t3.
+and i have 10 employees whose salary need to be calculated.
+
+inorder to use thread pool we know that executor framework
