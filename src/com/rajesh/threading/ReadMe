@@ -17,7 +17,7 @@ thread flow starts from run method.
 eg.line 8 if we call start method on t1 it will throw illegalthreadstatus exception. 
 so disadvantages of using thread is not possible uisng extending thread and calling t1.start() again or twice.
 As thread is dead we can't execute again.
-in order to reuxe thread threadpool concepts. 
+in order to reuse thread threadpool concepts. 
 there are 4 thread pool
 1) fixed
 2) cached
